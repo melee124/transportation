@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>How Do You Roll?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>How Do you Roll?</h1>
+      <p>Please complete the following survey to tell us how you travel.  The survey covers both work and leisure commutes.</p>
+      <form id="travel">
+        <div class="form-group">
+          <p>How do you commute to work?</p>
+          <input type="checkbox" name="work-transport" value="Bike">Bike</br>
+          <input type="checkbox" name="work-transport" value="Train">Train</br>
+          <input type="checkbox" name="work-transport" value="Bus">Bus</br>
+          <input type="checkbox" name="work-transport" value="Car">Car</br>
+          <input type="checkbox" name="work-transport" value="Spaceship">Spaceship</br>
+          <input type="checkbox" name="work-transport" value="Plane">Plane</br>
+          <input type="checkbox" name="work-transport" value="Walk">Walk</br>
+        </div>
+        <div class="form-group">
+          <p>How do you get to fun places?</p>
+          <input type="checkbox" name="fun-transport" value="Bike">Bike</br>
+          <input type="checkbox" name="fun-transport" value="Train">Train</br>
+          <input type="checkbox" name="fun-transport" value="Bus">Bus</br>
+          <input type="checkbox" name="fun-transport" value="Car">Car</br>
+          <input type="checkbox" name="fun-transport" value="Spaceship">Spaceship</br>
+          <input type="checkbox" name="fun-transport" value="Plane">Plane</br>
+          <input type="checkbox" name="fun-transport" value="Walk">Walk</br>
+        </div>
+        <button type="submit" name="button">Submit your travel</button>
+      </form>
+      <div id="work-results">
+        <h1>Here are your work commute results!</h1>
+        <span class="work-commute"></span>
+      </div>
+      <div id="fun-results">
+        <h1>Here are your fun commute results!</h1>
+        <span class="fun-commute"></span>
+      </div>
+    </div>
+  </body>
+</html>
